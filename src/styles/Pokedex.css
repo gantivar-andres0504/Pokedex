@@ -1,0 +1,31 @@
+.pokedex{
+    padding: 3em 0em;
+}
+.volver{
+    margin-left: 1em;
+    background-color: rgba(231, 7, 7, 0.938);
+    padding: 5px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.884);
+    margin-bottom: 2em;
+}
+.pokedex_container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1em;
+
+}
+
+.pokedex_header{
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+
+.pokedex_form{
+    display: flex;
+    gap: .75em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+

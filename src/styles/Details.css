@@ -1,0 +1,166 @@
+.pokedex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .back-link {
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .pokemon-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pokemon-image {
+    margin-right: 2rem;
+  }
+  
+  .pokemon-image img {
+    max-width: 200px;
+  }
+  
+  .id-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .id {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .size {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .weight,
+  .height {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .type-abilities {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .type,
+  .abilities {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .type .label,
+  .abilities .label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .type .values,
+  .abilities .values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .type .values span,
+  .abilities .values span {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .type .values span {
+    background-color: #f2f2f2;
+  }
+  
+  .type-grass {
+    color: #78C850;
+  }
+  
+  .type-fire {
+    color: #F08030;
+  }
+  
+  .type-water {
+    color: #6890F0;
+  }
+  
+  .type-electric {
+    color: #F8D030;
+  }
+  
+  .type-psychic {
+    color: #F85888;
+  }
+  
+  .type-ice {
+    color: #98D8D8;
+  }
+  
+  .type-fighting {
+    color: #C03028;
+  }
+  
+  .type-poison {
+    color: #A040A0;
+  }
+  
+  .type-ground {
+    color: #E0C068;
+  }
+  
+  .type-flying {
+    color: #A890F0;
+  }
+  
+  .type-bug {
+    color: #A8B820;
+  }
+  
+  .type-rock {
+    color: #B8A038;
+  }
+  
+  .type-ghost {
+    color: #705898;
+  }
+  
+  .type-dragon {
+    color: #7038F8;
+  }
+  
+  .type-dark {
+    color: #705848;
+  }
+  
+  .type-steel {
+    color: #B8B8D0;
+  }
+  
+  .type-fairy {
+    color: #EE99AC;
+  }
